@@ -1,5 +1,50 @@
+@font-face {
+  font-family: 'FreightSans';
+  src: url('fonts/Freight-SansBold.woff2') format('woff2'),
+      url('fonts/Freight-SansBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightText';
+  src: url('fonts/Freight-TextBold.woff2') format('woff2'),
+      url('fonts/Freight-TextBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightText';
+  src: url('fonts/Freight-TextMedium.woff2') format('woff2'),
+      url('fonts/Freight-TextMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FreightText';
+  src: url('fonts/Freight-TextMediumItalic.woff2') format('woff2'),
+      url('fonts/Freight-TextMediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
 .App {
   text-align: center;
+  font-family: 'FreightText', serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.md-RichEditor-editor {
+  text-align: left;
+  width: 650px;
+  margin: 0 auto,
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'FreightSans', sans-serif;
 }
 
 .App-logo {
